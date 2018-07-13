@@ -18,13 +18,13 @@ GO_BUILD_BINDIR = "${@['bin/${HOST_GOTUPLE}','bin'][d.getVar('BUILD_GOTUPLE', Tr
 # Go supports dynamic linking on a limited set of architectures.
 # See the supportsDynlink function in go/src/cmd/compile/internal/gc/main.go
 GO_DYNLINK = ""
-GO_DYNLINK_arm = "1"
-GO_DYNLINK_aarch64 = "1"
-GO_DYNLINK_x86 = "1"
-GO_DYNLINK_x86-64 = "1"
-GO_DYNLINK_powerpc64 = "1"
-GO_DYNLINK_class-native = ""
-GO_DYNLINK_class-nativesdk = ""
+# GO_DYNLINK_arm = "1"
+# GO_DYNLINK_aarch64 = "1"
+# GO_DYNLINK_x86 = "1"
+# GO_DYNLINK_x86-64 = "1"
+# GO_DYNLINK_powerpc64 = "1"
+# GO_DYNLINK_class-native = ""
+# GO_DYNLINK_class-nativesdk = ""
 
 # define here because everybody inherits this class
 #
